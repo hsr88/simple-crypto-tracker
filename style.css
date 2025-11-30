@@ -1,0 +1,171 @@
+/* --- ZMIENNE KOLORYSTYCZNE (Łatwa edycja) --- */
+:root {
+    --bg-body: #0f172a;       /* Bardzo ciemny granat (Slate 900) */
+    --bg-card: #1e293b;       /* Jaśniejszy granat (Slate 800) */
+    --bg-card-hover: #334155; /* Slate 700 */
+    --text-main: #f8fafc;     /* Prawie biały */
+    --text-muted: #94a3b8;    /* Szary */
+    --accent: #38bdf8;        /* Błękitny akcent */
+    --green: #10b981;         /* Matowa zieleń */
+    --green-bg: rgba(16, 185, 129, 0.1); /* Tło dla zielonego badge'a */
+    --red: #ef4444;           /* Matowa czerwień */
+    --red-bg: rgba(239, 68, 68, 0.1);    /* Tło dla czerwonego badge'a */
+}
+
+/* --- BAZA --- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--bg-body);
+    color: var(--text-main);
+    font-family: 'Inter', sans-serif; /* Nowa czcionka */
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* --- NAGŁÓWEK (Minimalistyczny) --- */
+header {
+    padding: 60px 20px 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+header h1 {
+    font-size: 2rem;
+    font-weight: 700;
+    letter-spacing: -1px; /* Ciasne litery są nowoczesne */
+}
+
+.logo-accent {
+    color: var(--accent);
+}
+
+header p {
+    color: var(--text-muted);
+    margin-top: 5px;
+    font-size: 1rem;
+}
+
+/* --- GRID --- */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Auto-fill dla lepszego RWD */
+    gap: 20px;
+    padding: 0 20px 60px;
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+/* --- KARTA (FLAT DESIGN) --- */
+.coin-card {
+    background-color: var(--bg-card);
+    border-radius: 12px; /* Mniejsze zaokrąglenie */
+    padding: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: all 0.2s ease-in-out;
+    cursor: default;
+    /* Brak borderów, brak cieni - czysty flat */
+}
+
+.coin-card:hover {
+    background-color: var(--bg-card-hover);
+    transform: translateY(-2px);
+}
+
+/* Sekcja lewa: Ikona i Nazwa */
+.coin-info {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.coin-info img {
+    width: 42px;
+    height: 42px;
+    border-radius: 50%; /* Okrągłe loga */
+}
+
+.coin-name h3 {
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.2;
+}
+
+.coin-name span {
+    color: var(--text-muted);
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+/* Sekcja prawa: Cena i Zmiana */
+.coin-price {
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end; /* Wyrównanie do prawej */
+    gap: 6px;
+}
+
+.current-price {
+    font-size: 1.1rem;
+    font-weight: 600;
+    letter-spacing: -0.5px;
+}
+
+/* Badge (Pastylka) ze zmianą ceny */
+.price-change {
+    font-size: 0.75rem;
+    font-weight: 600;
+    padding: 4px 10px;
+    border-radius: 20px; /* Pełne zaokrąglenie */
+    display: inline-block;
+}
+
+/* Style kolorystyczne dla badge'a */
+.green {
+    color: var(--green);
+    background-color: var(--green-bg);
+}
+
+.red {
+    color: var(--red);
+    background-color: var(--red-bg);
+}
+
+/* --- STOPKA --- */
+footer {
+    margin-top: auto;
+    padding: 40px;
+    text-align: center;
+    color: var(--text-muted);
+    font-size: 0.9rem;
+    border-top: 1px solid var(--bg-card); /* Subtelna linia odzielająca */
+}
+
+footer a {
+    color: var(--accent);
+    text-decoration: none;
+    transition: opacity 0.2s;
+}
+
+footer a:hover {
+    opacity: 0.8;
+}
+
+/* Loader */
+.loader {
+    grid-column: 1 / -1;
+    text-align: center;
+    color: var(--text-muted);
+    font-weight: 500;
+}
