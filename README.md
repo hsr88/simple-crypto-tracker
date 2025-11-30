@@ -2,8 +2,8 @@
 
 Nowoczesny dashboard do śledzenia kursów kryptowalut w czasie rzeczywistym. Projekt charakteryzuje się stylem **Dark Flat Design** i pełną responsywnością. Aplikacja pobiera dane bezpośrednio z API CoinGecko.
 
-![Status](https://img.shields.io/badge/Status-Live-green?style=flat-square)
-![License](https://img.shields.io/github/license/hsr88/crypto-dashboard-flat?style=flat-square)
+![Status](https://img.shields.io/badge/Status-Live-green?simple-crypto-tracker)
+![License](https://img.shields.io/github/license/hsr88/simple-crypto-tracker)
 
 ## 🔗 Demo
 👉 **[Zobacz projekt na żywo](https://hsr88.github.io/crypto-dashboard-flat/)**
@@ -29,4 +29,5 @@ Projekt został napisany w czystym kodzie (Vanilla JS) bez użycia frameworków,
 ## 🚀 Jak uruchomić lokalnie?
 1. Sklonuj repozytorium:
    ```bash
+
    git clone [https://github.com/hsr88/crypto-dashboard-flat.git](https://github.com/hsr88/crypto-dashboard-flat.git)
