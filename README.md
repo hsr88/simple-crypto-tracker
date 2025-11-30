@@ -6,11 +6,13 @@ Nowoczesny dashboard do śledzenia kursów kryptowalut w czasie rzeczywistym. Pr
 ![License](https://img.shields.io/github/license/hsr88/simple-crypto-tracker)
 
 ## 🔗 Demo
-👉 **[Zobacz projekt na żywo](https://hsr88.github.io/crypto-dashboard-flat/)**
-*(Link zadziała po włączeniu GitHub Pages)*
+👉 **[Zobacz projekt na żywo](https://hsr88.github.io/simple-crypto-tracker/))**
+
 
 ## 📸 Screenshot
-![App Screenshot](https://via.placeholder.com/800x400.png?text=Wgraj+swoj+Screenshot)
+
+<img width="1196" height="920" alt="Zrzut ekranu 2025-11-30 110848" src="https://github.com/user-attachments/assets/300efb72-4284-47fc-a498-bc5c2713f10c" />
+
 
 ## ⚡ Funkcje
 - **Live Data:** Asynchroniczne pobieranie kursów (Bitcoin, Ethereum i inne altcoiny) z CoinGecko API.
@@ -39,3 +41,4 @@ Projekt został napisany w czystym kodzie (Vanilla JS) bez użycia frameworków,
 
 ## 👨‍💻 Autor
 [hsr88](https://github.com/hsr88/)
+
