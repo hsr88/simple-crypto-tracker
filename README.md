@@ -1,4 +1,4 @@
-# 💎 Crypto MarketWatch
+# 💎 Simple Crypto Tracker
 
 Nowoczesny dashboard do śledzenia kursów kryptowalut w czasie rzeczywistym. Projekt charakteryzuje się stylem **Dark Flat Design** i pełną responsywnością. Aplikacja pobiera dane bezpośrednio z API CoinGecko.
 
@@ -41,5 +41,6 @@ Projekt został napisany w czystym kodzie (Vanilla JS) bez użycia frameworków,
 
 ## 👨‍💻 Autor
 [hsr88](https://github.com/hsr88/)
+
 
 
