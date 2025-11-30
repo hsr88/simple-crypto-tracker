@@ -6,7 +6,7 @@ Nowoczesny dashboard do śledzenia kursów kryptowalut w czasie rzeczywistym. Pr
 ![License](https://img.shields.io/github/license/hsr88/simple-crypto-tracker)
 
 ## 🔗 Demo
-👉 **[Zobacz projekt na żywo](https://hsr88.github.io/simple-crypto-tracker/))**
+👉 **[Zobacz projekt na żywo](https://hsr88.github.io/simple-crypto-tracker/)**
 
 
 ## 📸 Screenshot
@@ -41,4 +41,5 @@ Projekt został napisany w czystym kodzie (Vanilla JS) bez użycia frameworków,
 
 ## 👨‍💻 Autor
 [hsr88](https://github.com/hsr88/)
+
 
