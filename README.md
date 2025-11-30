@@ -31,3 +31,11 @@ Projekt został napisany w czystym kodzie (Vanilla JS) bez użycia frameworków,
    ```bash
 
    git clone [https://github.com/hsr88/crypto-dashboard-flat.git](https://github.com/hsr88/crypto-dashboard-flat.git)
+
+
+2. Otwórz plik index.html w przeglądarce.
+
+3. Gotowe! Nie wymaga instalacji Node.js ani npm.
+
+## 👨‍💻 Autor
+[hsr88](https://github.com/hsr88/)
